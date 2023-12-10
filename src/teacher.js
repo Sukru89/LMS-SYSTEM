@@ -4,7 +4,7 @@ export const teachersData = {
   name: `Teachers`,
   content: `
         <h1>Teachers</h1>
-        <div class="row row-cols-1 row-cols-md-2 g-2 card-place"> 
+        <div class="row row-cols-1 row-cols-md-2 g-2 "> 
           <div class="card" style="width: 18rem;">
             <div class="card-body">
           <h5 class="card-title">${teachersList.name}</h5>

@@ -17,7 +17,7 @@ export const contentData = (pHeader,pTitle,pDescription)=>{
 };
 
 export const infoData =`
-<div class="cards mb-3 info-position" > 
+<div class="cards mb-3 info-position card-place" > 
 
 <div class="card-body">
   <h3 class="card-title">HiCoder 23/24 LMS</h3>

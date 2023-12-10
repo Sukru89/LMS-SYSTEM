@@ -1,38 +1,34 @@
 
 export const teachersList=[{
-    name:"Hannes",
-    surName: "Bühler",
+    fullName:"Hannes Bühler",
     profession: "Javascript Expert",
 },
 {
-    name:"Ali",
-    surName: "Sayar",
+    fullName:"Ali Sayar",
     profession: "AWS Expert",
 },
 ]
 
 
 export const classesList=[{
-    name:"Fullstack Class",
-    surName: "Bühler",
-    profession: "Javascript Expert",
+    className:"Fullstack Class",
+    teacherName: "Bühler",
+    
 },
 {
-    name:"Cloud Class",
-    surName: "Sayar",
-    profession: "AWS Expert",
+    className:"Cloud Class",
+    teacherName: "Sayar",
+    
 },
 ]
 
 
 export const studentsList=[{
-    name:"Max",
-    surName: "Hermann",
+    fullName:"Max Hermann",
     profession: "Fullstack",
 },
 {
-    name:"Anthony",
-    surName: "Egbe",
+    fullName:"Anthony Egbe",
     profession: "Cloud",
 },
 ]
