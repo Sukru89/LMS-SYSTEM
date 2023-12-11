@@ -26,10 +26,12 @@ export const classesList=[{
 export const studentsList=[{
     fullName:"Max Hermann",
     profession: "Fullstack",
+    average: "4,9"
 },
 {
     fullName:"Anthony Egbe",
     profession: "Cloud",
+    average: "5,2"
 },
 ]
 

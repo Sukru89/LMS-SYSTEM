@@ -16,6 +16,7 @@ export const contentData = (pHeader,pTitle,pDescription)=>{
     return content
 };
 
+
 export const infoData =`
 <div class="cards mb-3 info-position card-place" > 
 

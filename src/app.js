@@ -9,7 +9,7 @@ import { layout } from "./layout.js";
 
 import { infoData } from "./content.js";
 
-render('#app',header+layout("hasan","huseyin","sukru")+infoData+footer)
+render('#app',header+layout+infoData+footer)
 
 document.querySelector("#home-link").addEventListener("click",()=>{render("#content", homePageData.content)})
 document.querySelector("#classes-link").addEventListener("click",()=>{render("#content",classesData.content)})
