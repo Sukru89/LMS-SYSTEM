@@ -1,4 +1,4 @@
-export const home = {
+export const homePageData = {
     name: `home`,
     content: `
     <h1>Welcome Mirjam</h1> 
