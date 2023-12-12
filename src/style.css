@@ -26,9 +26,33 @@
         margin-left: 30px;
     }
 
-    .card-place{
-        margin-left: -100px !important;
-        
-    }
+   .card-place{
+    margin-top: 350px;
+    margin-left: 30px;
+    display: flex;
+   }
 
+   .home-card{
+    margin-top: 140 px;
+    display: flex;
+   }
+    
+   .card-container{
+    justify-content: left;
+   }
+
+   .bi-place{
+    margin-left: 295px;
+    font-size: xx-large;
+   }
+   
+   .pencil-place{
+    
+    
+   }
+
+   .trash-place{
+    
+    
+   }
    
