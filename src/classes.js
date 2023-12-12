@@ -1,6 +1,7 @@
 import {classesList  } from "./data.js";
 export const classesData = {
   content: `
+    
     <h1>Classes</h1>
     <div class="card-deck" style="display: flex; flex-wrap: wrap;">
       ${classesList
@@ -8,7 +9,9 @@ export const classesData = {
           (lesson) => `
         <div class="card" style="width: 18rem; margin: 10px;">
                     <div class="card-body">
-                    <h5 class="card-title"> ${lesson.className}</h5>
+                    <h5 class="card-title"> ${lesson.className}
+                    <button id="edit-btn"><i class="bi-pencil"></i></button>
+                    <button id="delete-btn"><i class="bi-trash"></i></button></h5>
                     <h7 class="card-title"> ${lesson.teacherName}</h7>
                     <br><br>
 
@@ -21,5 +24,7 @@ export const classesData = {
         )
         .join("")}
     </div>
+    <div><i class="bi bi-plus-circle bi-place"></i></div>
+    
   `,
 };

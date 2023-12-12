@@ -10,7 +10,10 @@ export const teachersData = {
                      <div class="card-body">
               <h5 class="card-title">${
                 teacher.fullName
-              }</h5>
+              }
+              <button id="edit-btn"><i class="bi-pencil pencil-place"></i></button>
+              <button id="delete-btn"><i class="bi-trash trash-place"></i></button>
+              </h5>
               <h7 class="card-title">${teacher.profession}</h7>
               <br><br>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -21,5 +24,6 @@ export const teachersData = {
         `;
       })}
     </div>
+    <div><i class="bi bi-plus-circle bi-place"></i></div>
   `,
 };

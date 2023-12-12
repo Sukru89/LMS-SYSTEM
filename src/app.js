@@ -15,3 +15,4 @@ document.querySelector("#home-link").addEventListener("click",()=>{render("#cont
 document.querySelector("#classes-link").addEventListener("click",()=>{render("#content",classesData.content)})
 document.querySelector("#teachers-link").addEventListener("click",()=>{render("#content",teachersData.content)})
 document.querySelector("#students-link").addEventListener("click",()=>{render("#content",studentsData.content)})
+document.querySelector("")
