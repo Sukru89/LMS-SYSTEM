@@ -24,6 +24,6 @@ export const teachersData = {
         `;
       })}
     </div>
-    <div><i class="bi bi-plus-circle bi-place"></i></div>
+    <div><i class="bi bi-plus-circle bi-place "></i></div>
   `,
 };
