@@ -7,19 +7,22 @@ export const homePageData = {
     <div class="row row-cols- row-cols-md-6 g-8 col-9   ">
         <div class="card">
             <div class="card-body">
-                22 Number of Students.
+            <h4> 22  </h4>
+            <p>Number of Students.</p>
             </div>
         </div>
 
         <div class="card">
             <div class="card-body">
-                3 Number of Teachers.
+            <h4> 3  </h4>
+            <p>Number of Students.</p>
             </div>
         </div>
 
         <div class="card">
             <div class="card-body">
-                5 Number of Classes.
+            <h4> 5  </h4>
+            <p>Number of Students.</p>
             </div>
         </div>
     </div>

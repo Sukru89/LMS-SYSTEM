@@ -33,5 +33,7 @@ export const studentsList=[{
     profession: "Cloud",
     average: "5,2"
 },
+
 ]
+
 
